@@ -1,0 +1,25 @@
+{
+  "name": "Harshith Join Hider",
+  "description": "Join Hider Was Delete the member when join messege and leave it remove it by created by Mutyala Harshith.",
+  "logo": "https://telegra.ph/file/236794ce4bb2213eaae1e.jpg",
+  "repository": "https://github.com/HAIAMH/JoinHider",
+  "env": {
+    "BOT_TOKEN": {
+      "description": "Enter bot token form @Botfather.",
+      "value": "mh Bot token"
+    },
+    "APP_ID": {
+      "description": "Get this value from my.telegram.org! Please do not steal.",
+      "value": "mh api id"
+    },
+    "API_HASH": {
+      "description": "Get this value from my.telegram.org! Please do not steal.",
+      "value": "mh api hash"
+    }
+  },
+   "buildpacks": [
+        {
+            "url": "heroku/python"
+        }
+    ]
+}
